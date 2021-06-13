@@ -1,0 +1,80 @@
+.header {
+  background-image: linear-gradient(
+    to bottom,
+    #f1fefe,
+    rgba(241, 254, 254, 0.2)
+  );
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("../../asset/Group 195.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    display: inline-block;
+    z-index: 10;
+  }
+
+  &__main {
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__heroSection {
+    // height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    & > .heading-secondary {
+      //   padding: 5px 0;
+    }
+
+    & > .heading-primary {
+      padding-bottom: 2rem;
+    }
+
+    & > .paragraph {
+      font-size: 20px;
+      line-height: 1.35;
+      width: 24.3rem;
+      padding-bottom: 2rem;
+    }
+
+    & > .btn {
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+    }
+  }
+
+  &__heroImage {
+    width: 395px;
+    height: 386px;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--img {
+      width: 350px;
+      height: 340px;
+      padding: 64.5px 65.3px 65px 66px;
+      border: solid 3px #00dbd0;
+    }
+  }
+}

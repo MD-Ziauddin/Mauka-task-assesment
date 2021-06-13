@@ -1,0 +1,69 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+
+  &__nav-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--logo {
+      margin-right: 1rem;
+    }
+
+    &--name {
+      font-size: 42px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      text-align: left;
+      color: #374b5c;
+    }
+  }
+
+  &__nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--item {
+      list-style: none;
+      position: relative;
+
+      &.active::after {
+        content: "";
+        width: 43px;
+        position: absolute;
+        right: 0px;
+        bottom: -5px;
+        background: #00dbd0;
+        height: 2px;
+      }
+
+      &.contact {
+        border: 1px solid #00dbd0;
+        padding: 12px 38px 13px 38px;
+        border-radius: 10px;
+        text-align: center;
+      }
+    }
+
+    &--link {
+      text-decoration: none;
+
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.31;
+      letter-spacing: normal;
+      text-align: left;
+      color: #374b5c;
+    }
+  }
+}
