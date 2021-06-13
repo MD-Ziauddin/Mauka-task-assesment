@@ -22,5 +22,21 @@
     z-index: 10;
 
     transform: rotate(243deg);
+
+    @include respond(big-desktop) {
+      left: -23%;
+    }
+
+    @include respond(tab-land) {
+      left: -43%;
+    }
+
+    @include respond(tab-port) {
+      width: 650px;
+      height: 650px;
+      left: -39%;
+
+      transform: rotate(230deg);
+    }
   }
 }

@@ -26,6 +26,22 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @include respond(big-desktop) {
+      padding: 2rem 11rem;
+    }
+
+    @include respond(tab-land) {
+      padding: 0 3rem;
+    }
+
+    &--card {
+      &--img {
+        @include respond(tab-port) {
+          width: 90px;
+        }
+      }
+    }
   }
 
   &__selection {

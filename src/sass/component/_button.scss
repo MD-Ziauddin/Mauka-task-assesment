@@ -1,12 +1,22 @@
 .btn {
-  padding: 14px 64px 16px 48px;
-  border-radius: 10px;
   background-color: #00dbd0;
   color: #fff;
   border: none;
+  cursor: pointer;
+
+  &--main {
+    padding: 14px 64px 16px 48px;
+    border-radius: 10px;
+  }
 
   &--subscribe {
     padding: 21px 45.5px 24px;
     border-radius: 30px;
+  }
+
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    transform: scale(1.05);
   }
 }

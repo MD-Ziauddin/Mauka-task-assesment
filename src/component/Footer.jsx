@@ -33,10 +33,26 @@ const Footer = (props) => {
           <p className="footer__info--brief--text paragraph">Information</p>
         </div>
         <ul className="footer__info--list">
-          <li className="footer__info--item">About Us</li>
-          <li className="footer__info--item">Products</li>
-          <li className="footer__info--item">Contact Us</li>
-          <li className="footer__info--item">Terms of Service</li>
+          <li className="footer__info--item">
+            <a href="#" className="footer__info--link">
+              About Us
+            </a>
+          </li>
+          <li className="footer__info--item">
+            <a href="#" className="footer__info--link">
+              Product
+            </a>
+          </li>
+          <li className="footer__info--item">
+            <a href="#" className="footer__info--link">
+              Contact Us
+            </a>
+          </li>
+          <li className="footer__info--item">
+            <a href="#" className="footer__info--link">
+              Terms of Service
+            </a>
+          </li>
         </ul>
       </section>
 

@@ -39,5 +39,28 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @include respond(big-desktop) {
+      padding: 0 11rem;
+    }
+
+    @include respond(tab-land) {
+      padding: 0 3rem;
+    }
+
+    &--card {
+      // cursor: pointer;
+      transition: all 0.2s ease-in;
+
+      &:hover {
+        transform: translateY(-10px);
+      }
+
+      &--img {
+        @include respond(tab-port) {
+          width: 150px;
+        }
+      }
+    }
   }
 }
