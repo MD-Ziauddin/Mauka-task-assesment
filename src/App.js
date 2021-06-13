@@ -155,11 +155,11 @@ function App() {
             <p className="review__user--name paragraph">Jane Doe</p>
           </div>
           <div className="review__star">
-            <StarBorderIcon style={{ color: "#00dbd0" }} />
-            <StarBorderIcon style={{ color: "#00dbd0" }} />
-            <StarBorderIcon style={{ color: "#00dbd0" }} />
-            <StarBorderIcon style={{ color: "#00dbd0" }} />
-            <StarBorderIcon style={{ color: "#00dbd0" }} />
+            <StarBorderIcon style={{ color: "#00dbd0" }} fontSize="large" />
+            <StarBorderIcon style={{ color: "#00dbd0" }} fontSize="large" />
+            <StarBorderIcon style={{ color: "#00dbd0" }} fontSize="large" />
+            <StarBorderIcon style={{ color: "#00dbd0" }} fontSize="large" />
+            <StarBorderIcon style={{ color: "#00dbd0" }} fontSize="large" />
           </div>
           <div className="review__brief">
             <p className="review__brief--text paragraph">

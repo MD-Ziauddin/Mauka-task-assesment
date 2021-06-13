@@ -36,9 +36,13 @@
     }
   }
 
+  &__star {
+    padding: 10px 0;
+  }
+
   &__brief {
     width: 542px;
-    padding: 10px 0;
+    padding: 0 0 10px 0;
 
     &--text {
       text-align: center;
