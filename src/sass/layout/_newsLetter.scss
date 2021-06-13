@@ -1,0 +1,55 @@
+.newsLetter {
+  padding: 2rem 0;
+  position: relative;
+
+  &__brief {
+    padding: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--title {
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+
+    &--text {
+      width: 35.5rem;
+      text-align: center;
+    }
+  }
+
+  &__form {
+    padding: 4rem 0;
+    margin: 0 auto;
+    width: 569px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backface-visibility: hidden;
+
+    &--input[type="text"] {
+      font-family: "Robot";
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.33;
+      text-align: center;
+      color: #374b5c;
+      border: 1px solid transparent;
+      outline: none;
+      padding: 5px 15px;
+      border-radius: 10px;
+      transition: all 0.2s ease-in;
+
+      &:focus {
+        border: 1px solid #00dbd0;
+      }
+    }
+
+    & > .btn {
+      font-size: 18px;
+      line-height: 1.33;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.presentationSection {
+  padding: 2rem 0;
+  background-color: #fbfefe;
+  position: relative;
+
+  &__brief {
+    padding: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--title {
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+
+    &--text {
+      width: 35.5rem;
+      text-align: center;
+    }
+  }
+
+  &__cards {
+    padding: 2rem 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__selection {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+
+    &--dot {
+      height: 10px;
+      width: 10px;
+      margin: 0 8px;
+      background-color: #374b5c;
+      border-radius: 50%;
+      display: inline-block;
+
+      &:nth-child(2) {
+        background-color: #00dbd0;
+      }
+    }
+  }
+}

@@ -2,3 +2,25 @@
   //   max-width: 1366px;
   //   //   margin: 0 auto;
 }
+
+.bigSection {
+  position: relative;
+  // overflow: hidden;
+
+  &::after {
+    content: "";
+    width: 900px;
+    height: 900px;
+    background: url("../../asset/Group 134.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    position: absolute;
+    top: 15%;
+    left: -32%;
+    display: inline-block;
+    z-index: 10;
+
+    transform: rotate(243deg);
+  }
+}

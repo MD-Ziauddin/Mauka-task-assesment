@@ -1,5 +1,5 @@
 .welcomeSection {
-  padding: 8rem 0;
+  padding: 8rem 0 2rem 0;
   position: relative;
 
   &::after {
@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: 15%;
+    top: 18%;
     left: 46%;
     display: inline-block;
     z-index: 10;
