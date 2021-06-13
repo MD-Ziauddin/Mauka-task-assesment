@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Mauka-task-assesment/static/css/main.fca82eb5.chunk.css",
+    "main.js": "/Mauka-task-assesment/static/js/main.caec7f2c.chunk.js",
+    "main.js.map": "/Mauka-task-assesment/static/js/main.caec7f2c.chunk.js.map",
+    "runtime-main.js": "/Mauka-task-assesment/static/js/runtime-main.dbe2976a.js",
+    "runtime-main.js.map": "/Mauka-task-assesment/static/js/runtime-main.dbe2976a.js.map",
+    "static/js/2.160cb7cf.chunk.js": "/Mauka-task-assesment/static/js/2.160cb7cf.chunk.js",
+    "static/js/2.160cb7cf.chunk.js.map": "/Mauka-task-assesment/static/js/2.160cb7cf.chunk.js.map",
+    "static/js/3.22c0d97f.chunk.js": "/Mauka-task-assesment/static/js/3.22c0d97f.chunk.js",
+    "static/js/3.22c0d97f.chunk.js.map": "/Mauka-task-assesment/static/js/3.22c0d97f.chunk.js.map",
+    "index.html": "/Mauka-task-assesment/index.html",
+    "static/css/main.fca82eb5.chunk.css.map": "/Mauka-task-assesment/static/css/main.fca82eb5.chunk.css.map",
+    "static/js/2.160cb7cf.chunk.js.LICENSE.txt": "/Mauka-task-assesment/static/js/2.160cb7cf.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/Mauka-task-assesment/static/media/Group 229.3fc7b986.png",
+    "static/media/Group 228.317690fe.png": "/Mauka-task-assesment/static/media/Group 228.317690fe.png",
+    "static/media/product1.8448fab4.png": "/Mauka-task-assesment/static/media/product1.8448fab4.png",
+    "static/media/product2.7ed36cde.png": "/Mauka-task-assesment/static/media/product2.7ed36cde.png",
+    "static/media/product3.df0fec61.png": "/Mauka-task-assesment/static/media/product3.df0fec61.png",
+    "static/media/user.b90238e1.png": "/Mauka-task-assesment/static/media/user.b90238e1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbe2976a.js",
+    "static/js/2.160cb7cf.chunk.js",
+    "static/css/main.fca82eb5.chunk.css",
+    "static/js/main.caec7f2c.chunk.js"
+  ]
+}
