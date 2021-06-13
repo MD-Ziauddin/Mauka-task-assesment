@@ -20,6 +20,26 @@
     left: 41%;
     display: inline-block;
     z-index: 10;
+
+    animation: moveInFromRight 1.5s;
+
+    @include respond(big-desktop) {
+      top: 38%;
+      left: 53%;
+    }
+
+    @include respond(tab-land) {
+      top: 39%;
+      left: 39%;
+    }
+
+    @include respond(tab-port) {
+      width: 320px;
+      height: 450px;
+      background-size: contain;
+      top: 47%;
+      left: 48%;
+    }
   }
 
   &__main {
@@ -36,10 +56,6 @@
     justify-content: space-around;
     align-items: flex-start;
 
-    & > .heading-secondary {
-      //   padding: 5px 0;
-    }
-
     & > .heading-primary {
       padding-bottom: 2rem;
     }
@@ -54,12 +70,11 @@
     & > .btn {
       font-size: 18px;
       font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
       line-height: 1.33;
-      letter-spacing: normal;
       text-align: left;
       color: #ffffff;
+
+      animation: moveInFromBottom 1.5s;
     }
   }
 

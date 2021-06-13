@@ -5,6 +5,7 @@
   padding-top: 2rem;
 
   &__nav-brand {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +36,25 @@
       list-style: none;
       position: relative;
 
+      // &::after {
+      //   content: "";
+      //   width: 100%;
+      //   position: absolute;
+      //   right: 0px;
+      //   bottom: -5px;
+      //   background: #00dbd0;
+      //   height: 2px;
+
+      //   opacity: 0;
+      //   visibility: hidden;
+      //   transition: all 0.2s ease-in;
+      // }
+
+      // &:hover::after {
+      //   opacity: 1;
+      //   visibility: visible;
+      // }
+
       &.active::after {
         content: "";
         width: 43px;
@@ -50,10 +70,26 @@
         padding: 12px 38px 13px 38px;
         border-radius: 10px;
         text-align: center;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+
+        &:hover {
+          background-color: #00dbd0;
+        }
+
+        & > .nav__nav--link {
+          transition: all 0.2s ease-in;
+        }
+
+        &:hover > .nav__nav--link {
+          color: #fff;
+        }
       }
     }
 
-    &--link {
+    &--link:link,
+    &--link:visited,
+    &--link:active {
       text-decoration: none;
 
       font-size: 16px;
