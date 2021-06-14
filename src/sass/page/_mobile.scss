@@ -1,0 +1,32 @@
+.mobile {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(
+    to bottom,
+    #f1fefe,
+    rgba(241, 254, 254, 0.2)
+  );
+
+  &__brief {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &--title {
+      padding-bottom: 2rem;
+      color: #00dbd0;
+    }
+
+    &--text {
+      color: #374b5c;
+      text-align: center;
+      line-height: 1.35;
+    }
+  }
+}
